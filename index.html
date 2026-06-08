@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nicol Amairani Gastelum Diaz — CV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor" id="cursor"></div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <span class="label reveal">Curriculum Vitae</span>
+        <h1 class="name reveal">
+          <span class="name-first">Nicol</span>
+          <span class="name-middle">Amairani</span>
+          <span class="name-last">Gastelum Diaz</span>
+        </h1>
+        <p class="title reveal">TSU · Multiplatform Software Development</p>
+        <div class="hero-contacts reveal">
+
+        <!-- Correo -->
+        <a href="mailto:ngastelumdiaz@gmail.com" class="contact-pill">
+            📧 Email
+        </a>
+
+        <!-- Teléfono -->
+        <a href="tel:+526442558253" class="contact-pill">
+            📱 Call
+        </a>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/526442558253" target="_blank" class="contact-pill">
+            💬 WhatsApp
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://linkedin.com/in/NicolGastelum" target="_blank" class="contact-pill">
+            💼 LinkedIn
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/NicolGastelum" target="_blank" class="contact-pill">
+            💻 GitHub
+        </a>
+
+        <!-- Descargar CV -->
+        <a href="CV-Nicol-Gastelum.pdf" download class="contact-pill">
+            📄 Download CV
+        </a>
+
+        <!-- Copiar correo -->
+        <button id="copyEmail" class="contact-pill">
+            📋 Copy Email
+        </button>
+
+        </div>
+      </div>
+      <div class="hero-right reveal">
+        <div class="photo-frame">
+            <div class="photo-placeholder">
+            <img
+                src="img/nicol.jpg"
+                alt="Nicol Amairani Gastelum Diaz"
+                class="profile-photo"
+            >
+            </div>
+          <div class="photo-deco"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- SUMMARY -->
+  <section class="summary-section">
+    <div class="container">
+      <div class="section-tag">01 — Summary</div>
+      <blockquote class="summary-text reveal">
+        Multiplatform Software Development student with professional experience as a Frontend Developer, Software Tester, and Business Analyst in real-world environments. Specialized in quality assurance, requirements analysis, and functional documentation with traceability. Experience in software testing, process validation, and participation in administrative systems, actively collaborating with development teams using agile methodologies.
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- MAIN GRID -->
+  <main class="main-grid container">
+
+    <!-- LEFT COLUMN -->
+    <aside class="col-left">
+
+      <!-- EDUCATION -->
+      <section class="card reveal">
+        <div class="card-header">
+          <span class="section-tag">Education</span>
+        </div>
+        <div class="edu-item">
+          <div class="edu-degree">ING — Multiplatform Software Development and Management</div>
+          <div class="edu-school">Universidad Tecnológica del Sur de Sonora, Sonora, MX</div>
+          <div class="edu-year">2025 — Present</div>
+          <div class="edu-badge current">En curso</div>
+        </div>
+        <div class="divider"></div>
+        <div class="edu-item">
+          <div class="edu-degree">TSU — Multiplatform Software Development</div>
+          <div class="edu-school">Universidad Tecnológica del Sur de Sonora, Sonora, MX</div>
+          <div class="edu-year">2023 — 2025</div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="card reveal">
+        <div class="card-header">
+          <span class="section-tag">Skills</span>
+        </div>
+        <div class="skills-groups">
+          <div class="skill-group">
+            <div class="skill-group-label">Frontend</div>
+            <div class="tags">
+              <span class="tag">React JS</span>
+              <span class="tag">Angular</span>
+              <span class="tag">JavaScript (ES6+)</span>
+              <span class="tag">TypeScript</span>
+              <span class="tag">Xamarin.Forms</span>
+              <span class="tag">.MAUI</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">Backend & DB</div>
+            <div class="tags">
+              <span class="tag">C#</span>
+              <span class="tag">.NET Core</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">Entity Framework</span>
+              <span class="tag">AWS</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">SQL Server</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">Testing & QA</div>
+            <div class="tags">
+              <span class="tag accent">Selenium</span>
+              <span class="tag accent">Cypress</span>
+              <span class="tag accent">xUnit</span>
+              <span class="tag accent">NUnit</span>
+              <span class="tag accent">Postman</span>
+              <span class="tag accent">Swagger</span>
+              <span class="tag accent">RESTful API</span>
+              <span class="tag accent">Unit Testing</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="skill-group-label">DevOps & Tools</div>
+            <div class="tags">
+              <span class="tag">GitHub</span>
+              <span class="tag">GitHub Copilot</span>
+              <span class="tag">GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LANGUAGES -->
+      <section class="card reveal">
+        <div class="card-header">
+          <span class="section-tag">Languages</span>
+        </div>
+        <div class="lang-item">
+          <div class="lang-name">Spanish</div>
+          <div class="lang-level">Native</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+        </div>
+        <div class="lang-item">
+          <div class="lang-name">English</div>
+          <div class="lang-level">B1</div>
+          <div class="lang-bar"><div class="lang-fill" style="width:55%"></div></div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="card reveal">
+        <div class="card-header">
+          <span class="section-tag">Certifications</span>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon">✦</div>
+          <div>
+            <div class="cert-name">CCNA: Introduction to Networks</div>
+            <div class="cert-issuer">Cisco Networking Academy, 2024</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon">✦</div>
+          <div>
+            <div class="cert-name">Partner: NDG Linux Essentials</div>
+            <div class="cert-issuer">Cisco Networking Academy, 2024</div>
+          </div>
+        </div>
+        <div class="cert-item">
+          <div class="cert-icon">✦</div>
+          <div>
+            <div class="cert-name">Selenium IDE</div>
+            <div class="cert-issuer">Pruebas Automatizadas Udemy, 2025</div>
+          </div>
+        </div>
+      </section>
+
+    </aside>
+
+    <!-- RIGHT COLUMN -->
+    <div class="col-right">
+      <div class="section-tag">02 — Experience</div>
+
+      <div class="exp-item reveal">
+        <div class="exp-header">
+          <div class="exp-meta">
+            <span class="exp-company">Interaxis</span>
+            <span class="exp-period">April 2025 — September 2025</span>
+          </div>
+          <h3 class="exp-role">Software Tester & Business Analyst <em>(JR)</em></h3>
+        </div>
+        <ul class="exp-list">
+          <li>Functional testing of enterprise web applications.</li>
+          <li>Analysis, validation, and documentation of business functional requirements.</li>
+          <li>Development of test cases, scenarios, and evidence.</li>
+          <li>Incident logging, tracking, and validation.</li>
+          <li>Direct collaboration with the development team to ensure requirements are met. Support in documenting system processes and workflows.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item reveal">
+        <div class="exp-header">
+          <div class="exp-meta">
+            <span class="exp-company">Interaxis</span>
+            <span class="exp-period">April 2025 — September 2025</span>
+          </div>
+          <h3 class="exp-role">Frontend Developer <em>(JR)</em></h3>
+        </div>
+        <ul class="exp-list">
+          <li>Development and maintenance of frontend interfaces for web applications.</li>
+          <li>Implementation of views and UI components based on defined requirements.</li>
+          <li>Improvement of usability and user experience in system modules.</li>
+          <li>Visual integration with existing backend functionalities.</li>
+          <li>Support in correcting visual errors and adjusting the interface.</li>
+        </ul>
+      </div>
+
+      <!-- Decorative quote -->
+      <div class="exp-quote reveal">
+        <span>"Building software is a craft of precision and collaboration."</span>
+      </div>
+    </div>
+
+  </main>
+
+    <section class="card reveal container">
+
+    <div class="card-header">
+        <span class="section-tag">03 — Projects</span>
+    </div>
+
+    <div class="project-item">
+        <h4>Greenhouse Monitoring System</h4>
+        <p>
+        IoT system for monitoring temperature, humidity,
+        irrigation, lighting and environmental conditions.
+        </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="project-item">
+        <h4>Gym Management System</h4>
+        <p>
+        Web platform for class reservations, BMI calculations,
+        membership administration and nutrition recommendations.
+        </p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="project-item">
+        <h4>Nexwear E-Commerce</h4>
+        <p>
+        Online clothing store with responsive design,
+        product catalog and shopping cart.
+        </p>
+    </div>
+
+    </section>
+
+  <footer class="footer">
+    <div class="container">
+      <span>Nicol Amairani Gastelum Diaz</span>
+      <span class="footer-dot">·</span>
+      <span>TSU Multiplatform Software Development</span>
+      <span class="footer-dot">·</span>
+      <span>2025</span>
+    </div>
+  </footer>
+
+  <button id="topBtn">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
